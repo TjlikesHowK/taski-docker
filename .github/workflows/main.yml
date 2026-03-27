@@ -80,7 +80,7 @@ jobs:
 
     steps:
       - name: Check out the repo
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Set up nodeJS
         uses: actions/setup-node@v3
